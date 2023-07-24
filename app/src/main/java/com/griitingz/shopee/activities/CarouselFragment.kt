@@ -21,7 +21,6 @@ class CarouselFragment(private val items: List<DataX>) : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         return inflater.inflate(R.layout.fragment_carousel, container, false)
     }
 
